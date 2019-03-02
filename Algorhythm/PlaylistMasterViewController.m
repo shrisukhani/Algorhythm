@@ -7,6 +7,7 @@
 //
 
 #import "PlaylistMasterViewController.h"
+#import "PlaylistDetailViewController.h"
 
 @interface PlaylistMasterViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier  isEqual:@"showPlaylistDetail"]) {
+        NSLog(@"Equal");
+        PlaylistDetailViewController *destination = (PlaylistDetailViewController *)segue.destinationViewController;
+        destination.segueLabelText = @"You pressed the button";
+    } else {
+        NSLog(@"Unequal");
+    }
 }
 
 

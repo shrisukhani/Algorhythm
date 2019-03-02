@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    if (self.segueLabelText != nil) {
+        self.segueLabel.text = self.segueLabelText;
+    }
 }
 
 /*

@@ -10,6 +10,6 @@
 
 @interface PlaylistMasterViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIButton *aButton;
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 
 @end

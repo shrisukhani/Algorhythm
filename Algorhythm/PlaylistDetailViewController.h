@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PlaylistDetailViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *segueLabel;
+@property (weak, nonatomic) NSString *segueLabelText;
+
 @end
 
 NS_ASSUME_NONNULL_END
