@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		800AA091222A57E900549A38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AA090222A57E900549A38 /* AppDelegate.m */; };
-		800AA094222A57E900549A38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AA093222A57E900549A38 /* ViewController.m */; };
+		800AA094222A57E900549A38 /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AA093222A57E900549A38 /* PlaylistMasterViewController.m */; };
 		800AA097222A57E900549A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AA095222A57E900549A38 /* Main.storyboard */; };
 		800AA099222A57EA00549A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AA098222A57EA00549A38 /* Assets.xcassets */; };
 		800AA09C222A57EA00549A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AA09A222A57EA00549A38 /* LaunchScreen.storyboard */; };
@@ -19,8 +19,8 @@
 		800AA08C222A57E900549A38 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		800AA08F222A57E900549A38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		800AA090222A57E900549A38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		800AA092222A57E900549A38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		800AA093222A57E900549A38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		800AA092222A57E900549A38 /* PlaylistMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistMasterViewController.h; sourceTree = "<group>"; };
+		800AA093222A57E900549A38 /* PlaylistMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistMasterViewController.m; sourceTree = "<group>"; };
 		800AA096222A57E900549A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		800AA098222A57EA00549A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800AA09B222A57EA00549A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				800AA08F222A57E900549A38 /* AppDelegate.h */,
 				800AA090222A57E900549A38 /* AppDelegate.m */,
-				800AA092222A57E900549A38 /* ViewController.h */,
-				800AA093222A57E900549A38 /* ViewController.m */,
+				800AA092222A57E900549A38 /* PlaylistMasterViewController.h */,
+				800AA093222A57E900549A38 /* PlaylistMasterViewController.m */,
 				800AA095222A57E900549A38 /* Main.storyboard */,
 				800AA098222A57EA00549A38 /* Assets.xcassets */,
 				800AA09A222A57EA00549A38 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800AA094222A57E900549A38 /* ViewController.m in Sources */,
+				800AA094222A57E900549A38 /* PlaylistMasterViewController.m in Sources */,
 				800AA09F222A57EA00549A38 /* main.m in Sources */,
 				800AA091222A57E900549A38 /* AppDelegate.m in Sources */,
 			);
