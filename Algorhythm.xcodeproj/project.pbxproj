@@ -13,6 +13,7 @@
 		800AA099222A57EA00549A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AA098222A57EA00549A38 /* Assets.xcassets */; };
 		800AA09C222A57EA00549A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AA09A222A57EA00549A38 /* LaunchScreen.storyboard */; };
 		800AA09F222A57EA00549A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AA09E222A57EA00549A38 /* main.m */; };
+		800AA0AA222A5F5400549A38 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AA0A9222A5F5400549A38 /* PlaylistDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		800AA09B222A57EA00549A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800AA09D222A57EA00549A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800AA09E222A57EA00549A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		800AA0A8222A5F5400549A38 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		800AA0A9222A5F5400549A38 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				800AA09A222A57EA00549A38 /* LaunchScreen.storyboard */,
 				800AA09D222A57EA00549A38 /* Info.plist */,
 				800AA09E222A57EA00549A38 /* main.m */,
+				800AA0A8222A5F5400549A38 /* PlaylistDetailViewController.h */,
+				800AA0A9222A5F5400549A38 /* PlaylistDetailViewController.m */,
 			);
 			path = Algorhythm;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				800AA094222A57E900549A38 /* PlaylistMasterViewController.m in Sources */,
+				800AA0AA222A5F5400549A38 /* PlaylistDetailViewController.m in Sources */,
 				800AA09F222A57EA00549A38 /* main.m in Sources */,
 				800AA091222A57E900549A38 /* AppDelegate.m in Sources */,
 			);

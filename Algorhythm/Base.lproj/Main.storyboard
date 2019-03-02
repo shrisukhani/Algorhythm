@@ -34,5 +34,20 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Playlist Detail View Controller-->
+        <scene sceneID="78B-Fc-qqm">
+            <objects>
+                <viewController id="U51-nZ-Q0O" customClass="PlaylistDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zTh-RQ-gCL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="i28-Ls-sQq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e15-2S-mLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="734" y="27"/>
+        </scene>
     </scenes>
 </document>
